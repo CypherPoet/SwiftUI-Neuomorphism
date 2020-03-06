@@ -9,13 +9,30 @@
 import SwiftUI
 
 
-struct SfumatoViewModifier {
-    var isHighlighted: Bool
+public struct SfumatoViewModifier {
+    public var isHighlighted: Bool
     
-    var highlightColor: Color
-    var shadowColor: Color
+    public var highlightColor: Color
+    public var shadowColor: Color
     
-    var shadowRadius: CGFloat = 10.0
+    public var shadowRadius: CGFloat
+    public var animationForHighlighting: Animation?
+    
+    
+    // MARK: - Init
+    public init(
+        isHighlighted: Bool,
+        highlightColor: Color,
+        shadowColor: Color,
+        shadowRadius: CGFloat = 10.0,
+        animationForHighlighting: Animation? = nil
+    ) {
+        self.isHighlighted = isHighlighted
+        self.highlightColor = highlightColor
+        self.shadowColor = shadowColor
+        self.shadowRadius = shadowRadius
+        self.animationForHighlighting = animationForHighlighting
+    }
 }
 
 
@@ -27,8 +44,9 @@ extension SfumatoViewModifier {
 // MARK: - ViewModifier
 extension SfumatoViewModifier: ViewModifier {
 
-    func body(content: Content) -> some View {
+    public func body(content: Content) -> some View {
         content
+            .animation(animationForHighlighting ?? .none)
             .shadow(
                 color: highlightColor,
                 radius: shadowRadius,
@@ -41,8 +59,6 @@ extension SfumatoViewModifier: ViewModifier {
                 x: shadowRadius * (isHighlighted ? -0.5 : 1.0),
                 y: shadowRadius * (isHighlighted ? -0.5 : 1.0)
             )
-//            .animation(.easeInOut(duration: 0.15))
-            .animation(.none)
     }
 }
 

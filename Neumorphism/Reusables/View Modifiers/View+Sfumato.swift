@@ -15,14 +15,16 @@ extension View {
         isHighlighted: Bool,
         highlightColor: Color,
         shadowColor: Color,
-        shadowRadius: CGFloat = 10.0
+        shadowRadius: CGFloat = 10.0,
+        animationForHighlighting: Animation? = nil
     ) -> some View {
         modifier(
             SfumatoViewModifier(
                 isHighlighted: isHighlighted,
                 highlightColor: highlightColor,
                 shadowColor: shadowColor,
-                shadowRadius: shadowRadius
+                shadowRadius: shadowRadius,
+                animationForHighlighting: animationForHighlighting
             )
         )
     }

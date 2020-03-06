@@ -20,16 +20,26 @@ extension RootView: View {
     var body: some View {
         NavigationView {
             List {
-                NavigationLink(destination: CardExample()) {
-                    Text("Card")
+                Section(header: Text("Cards")) {
+                    NavigationLink(destination: CardExample()) {
+                        Text("Card")
+                    }
                 }
                 
-                NavigationLink(destination: RaisedButtonsExample()) {
-                    Text("Raised Buttons")
+                Section(header: Text("Buttons")) {
+                    NavigationLink(destination: RaisedButtonsExample()) {
+                        Text("Raised Buttons")
+                    }
+                    
+                    NavigationLink(destination: BumpedButtonsExample()) {
+                        Text("Bumped Buttons")
+                    }
                 }
                 
-                NavigationLink(destination: BumpedButtonsExample()) {
-                    Text("Bumped Buttons")
+                Section(header: Text("Toggles")) {
+                    NavigationLink(destination: TogglesExample()) {
+                        Text("Toggles")
+                    }
                 }
             }
             .navigationBarTitle("Neumorphism")

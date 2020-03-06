@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F3928E352411752000AE3DCF /* BumpedButtonsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3928E342411752000AE3DCF /* BumpedButtonsExample.swift */; };
+		F3928E3A2411E49700AE3DCF /* TogglesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3928E392411E49700AE3DCF /* TogglesExample.swift */; };
+		F3928E3D2411EBA100AE3DCF /* CustomToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3928E3C2411EBA100AE3DCF /* CustomToggleStyle.swift */; };
 		F3AE3FB124115C2100BE4DD0 /* SfumatoViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AE3FAF24115C2100BE4DD0 /* SfumatoViewModifier.swift */; };
 		F3AE3FB224115C2100BE4DD0 /* View+Sfumato.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AE3FB024115C2100BE4DD0 /* View+Sfumato.swift */; };
 		F3AE3FB42411622B00BE4DD0 /* BumpedButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AE3FB32411622B00BE4DD0 /* BumpedButtonStyle.swift */; };
@@ -28,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		F3928E342411752000AE3DCF /* BumpedButtonsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumpedButtonsExample.swift; sourceTree = "<group>"; };
+		F3928E392411E49700AE3DCF /* TogglesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogglesExample.swift; sourceTree = "<group>"; };
+		F3928E3C2411EBA100AE3DCF /* CustomToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggleStyle.swift; sourceTree = "<group>"; };
 		F3AE3FAF24115C2100BE4DD0 /* SfumatoViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SfumatoViewModifier.swift; sourceTree = "<group>"; };
 		F3AE3FB024115C2100BE4DD0 /* View+Sfumato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Sfumato.swift"; sourceTree = "<group>"; };
 		F3AE3FB32411622B00BE4DD0 /* BumpedButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumpedButtonStyle.swift; sourceTree = "<group>"; };
@@ -59,6 +63,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F3928E362411E47900AE3DCF /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				F3E1998D240F337D0086FA94 /* CardExample.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		F3928E372411E48000AE3DCF /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F3928E342411752000AE3DCF /* BumpedButtonsExample.swift */,
+				F3E19991240F3A350086FA94 /* RaisedButtonsExample.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		F3928E382411E48A00AE3DCF /* Toggles */ = {
+			isa = PBXGroup;
+			children = (
+				F3928E392411E49700AE3DCF /* TogglesExample.swift */,
+			);
+			path = Toggles;
+			sourceTree = "<group>";
+		};
+		F3928E3B2411E7E600AE3DCF /* Toggles */ = {
+			isa = PBXGroup;
+			children = (
+				F3928E3C2411EBA100AE3DCF /* CustomToggleStyle.swift */,
+			);
+			path = Toggles;
+			sourceTree = "<group>";
+		};
 		F3AE3FAE24115BF900BE4DD0 /* View Modifiers */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,9 +156,9 @@
 			isa = PBXGroup;
 			children = (
 				F3E1998B240F33210086FA94 /* RootView.swift */,
-				F3928E342411752000AE3DCF /* BumpedButtonsExample.swift */,
-				F3E19991240F3A350086FA94 /* RaisedButtonsExample.swift */,
-				F3E1998D240F337D0086FA94 /* CardExample.swift */,
+				F3928E382411E48A00AE3DCF /* Toggles */,
+				F3928E372411E48000AE3DCF /* Buttons */,
+				F3928E362411E47900AE3DCF /* Cards */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -149,6 +186,7 @@
 		F3E19994241029670086FA94 /* Styles */ = {
 			isa = PBXGroup;
 			children = (
+				F3928E3B2411E7E600AE3DCF /* Toggles */,
 				F3E19995241029710086FA94 /* Buttons */,
 			);
 			path = Styles;
@@ -262,12 +300,14 @@
 			files = (
 				F3E19997241029820086FA94 /* OutlinedButtonStyle.swift in Sources */,
 				F3E19975240F32940086FA94 /* AppDelegate.swift in Sources */,
+				F3928E3D2411EBA100AE3DCF /* CustomToggleStyle.swift in Sources */,
 				F3E1999B24106ACB0086FA94 /* RaisedButtonStyle.swift in Sources */,
 				F3E1999F241083E90086FA94 /* LinearGradient+InitHelpers.swift in Sources */,
 				F3E19992240F3A350086FA94 /* RaisedButtonsExample.swift in Sources */,
 				F3E1999924102A4B0086FA94 /* FilledButtonStyle.swift in Sources */,
 				F3928E352411752000AE3DCF /* BumpedButtonsExample.swift in Sources */,
 				F3E19977240F32940086FA94 /* SceneDelegate.swift in Sources */,
+				F3928E3A2411E49700AE3DCF /* TogglesExample.swift in Sources */,
 				F3E1998E240F337D0086FA94 /* CardExample.swift in Sources */,
 				F3E1998C240F33210086FA94 /* RootView.swift in Sources */,
 				F3AE3FB224115C2100BE4DD0 /* View+Sfumato.swift in Sources */,

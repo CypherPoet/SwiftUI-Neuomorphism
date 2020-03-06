@@ -54,6 +54,7 @@ extension BumpedButtonsExample {
                     shape: Circle(),
                     minWidth: 100,
                     minHeight: 100,
+                    paddingRatio: 1.0,
                     fillColor: Color("LightBackgroundStart"),
                     highlightColor: Color("Highlight1"),
                     shadowColor: Color("Highlight2"),
@@ -81,10 +82,13 @@ extension BumpedButtonsExample {
                 }
             }
             .buttonStyle(
+                // TODO: Perhaps create a BumpedButtonStyling protocol, and then a
+                // BumpedCircleButton that handled some of these arguments as defaults
                 BumpedButtonStyle(
                     shape: Circle(),
                     minWidth: 100,
                     minHeight: 100,
+                    paddingRatio: 1.0,
                     fillColor: Color("DarkBackgroundEnd"),
                     highlightColor: Color("Shadow1"),
                     shadowColor: Color("Shadow2"),
