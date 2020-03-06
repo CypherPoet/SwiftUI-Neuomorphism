@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "82F8E2C4-EA25-4B3F-9E31-A794BB0CF737"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16E2FA75-56E5-488C-80CD-925409B4DDE3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Neumorphism/Scenes/RootView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "16E2FA75-56E5-488C-80CD-925409B4DDE3 - c2404e9df400fdc6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in Neumorphism.RootView.body.getter : some"
+                  moduleName = "Neumorphism"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briansipple/lxda/swift/SwiftUI/Neumorphism/Neumorphism/Scenes/RootView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "63">
+               </Location>
+               <Location
+                  uuid = "16E2FA75-56E5-488C-80CD-925409B4DDE3 - a2a13c1d217ead5a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.NavigationLink&lt;SwiftUI.Text, Neumorphism.NeumorphicCardExample&gt;, SwiftUI.NavigationLink&lt;SwiftUI.Text, Neumorphism.NeumorphicButtonExample&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in Neumorphism.RootView.body.getter : some"
+                  moduleName = "Neumorphism"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briansipple/lxda/swift/SwiftUI/Neumorphism/Neumorphism/Scenes/RootView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "131">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C154EE29-2084-4009-8477-A856CC4CDA4B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Neumorphism/Scenes/RootView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C154EE29-2084-4009-8477-A856CC4CDA4B - a2a13c1d217ead5a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.NavigationLink&lt;SwiftUI.Text, Neumorphism.NeumorphicCardExample&gt;, SwiftUI.NavigationLink&lt;SwiftUI.Text, Neumorphism.NeumorphicButtonExample&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in Neumorphism.RootView.body.getter : some"
+                  moduleName = "Neumorphism"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briansipple/lxda/swift/SwiftUI/Neumorphism/Neumorphism/Scenes/RootView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "131">
+               </Location>
+               <Location
+                  uuid = "C154EE29-2084-4009-8477-A856CC4CDA4B - 3ee36c8ea68d526e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.Text in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.NavigationLink&lt;SwiftUI.Text, Neumorphism.NeumorphicCardExample&gt;, SwiftUI.NavigationLink&lt;SwiftUI.Text, Neumorphism.NeumorphicButtonExample&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in Neumorphism.RootView.body.getter : some"
+                  moduleName = "Neumorphism"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briansipple/lxda/swift/SwiftUI/Neumorphism/Neumorphism/Scenes/RootView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "11">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC5100FD-A27C-4158-BD18-34DB42E189DB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Neumorphism/Reusables/Styles/Buttons/CustomCircleButtonStyle.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "makeBody(configuration:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
